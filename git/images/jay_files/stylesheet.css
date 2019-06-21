@@ -1,0 +1,227 @@
+
+/* New for MS_3 */
+
+body {
+    background-color: bisque;
+}
+
+/* navbar */
+.navbar .btn{
+    border-color: azure;
+    color: #efe7d5;
+}
+
+.navbar .btn:hover{
+    border-color: azure;
+    color: #3d3a33;
+    background-color: #f4c761;
+}
+
+.navbar {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 20pt;
+    background-color: #374799;
+    text-align: center;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    
+}
+
+/* Font Logo */
+
+  
+.logo {
+padding-top: 50px;
+}
+
+.font-logo {
+color: #ba9186;
+position: relative;
+top: 8px;
+}
+
+.yummy {
+font-family: "Cookie", cursive;
+font-size: 140pt;
+}
+
+/* food search */
+.search-bar {
+    height:700px;
+    background-image: url('../img/bg-search.jpeg');
+    background-size: cover;
+    background-position: center center
+}
+
+/* hot deal */
+.card {
+    padding: 0%;
+}
+
+.card-body {
+    background-color: bisque;
+}
+/* footer info style */
+
+.footer-info {
+    background-color: #343a40;
+    color: white;
+}
+
+.footer-info>:first-child {
+    margin-top: 20px;
+}
+
+.footer-info>:last-child {
+    margin-bottom: 20px;
+}
+
+
+.fab{
+    background-color: #343a40;
+    border-color: white;
+}
+
+.fab:hover {
+    background-color: burlywood;
+}
+
+hr{
+    margin: auto;
+    background-color: azure;
+    
+}
+
+/* copyright style */
+.copyright {
+    background-color: #343a40;
+    font-size: 10px;
+    color: white;
+}
+
+.copyright>:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.copyright_links {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.copyright_links > li{
+    display: inline;
+    margin-right: 10px;
+    width: 70px;
+}
+
+.copyright_links > li > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.copyright_links > li > a:hover{
+    
+    color: green;
+}
+
+.copyright_links > li:not(:last-child)::after {
+    content: "|";
+    color: white;
+}
+
+/* login page */
+.login, .signup, .profile, .add-items {
+    background-image: url("../img/food/food07.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-body {
+    background-color: white;
+}
+
+small {
+    color: red;
+}
+
+/* profile */
+
+.add-restaurant {
+    background-color: white;
+    height: 80%;
+}
+
+.add-restaurant > .row {
+    padding-top: 70px;
+}
+
+.drag-upload {
+    
+    border: 2px dashed blue;
+    
+    height: 150px;
+    
+    position: relative;
+}
+
+.file-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.file-upload-message {
+    text-align: center;
+    vertical-align: center;
+    
+}
+.select-upload {
+    display: block;
+}
+
+        /* new profile */
+
+.user-page > aside{
+    background-color: red;
+}
+
+#head-image > img{
+    display: block;
+    margin: 0 auto;
+}
+
+.user-info {
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-pills {
+    margin-top: 20px;
+}
+/* food info */
+
+.food-info {
+    height: 80%;
+}
