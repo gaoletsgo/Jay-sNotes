@@ -17,6 +17,9 @@ fetching and pulling from the remote.
 `$ git push <remote> <branch>`  
 push your \<branch> to \<remote> server.
 
+`$ git push -u <> <>`  
+first time push.
+
 ## Inspecting a remote
 
 `$ git remote show <remote>`  
